@@ -4,6 +4,7 @@ from typing import List
 
 class Solution:
     def maxTotal(self, value: List[int], limit: List[int]) -> int:
+        '''Approach: Dictionary based iteration'''
         merged = list(zip(value,limit))
         merged.sort(key = lambda x : x[1])
         sorted_values = defaultdict(list)
