@@ -55,7 +55,6 @@ class Solution:
                         if active >= key: #if the active is greater than equal to limit break it
                             break
                             
-        
         return total
         #Time Complexity: O(nlogn) for sorting every values
         #Space Complexity: O(n+m) for the dictionary and for the list
